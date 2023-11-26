@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  background-image: url("../image/www.png");
+  background-color: #f0f0f0;
+  background-size: cover;
+  position: relative;
+}
+.why {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 45%;
+  font-weight: 500;
+  font-family: Space Mono, arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.general {
+  display: flex;
+  flex-basis: auto;
+}
+.image {
+  width: 555px;
+  height: 566px;
+  flex-shrink: 0;
+  margin-left: 8%;
+}
+.aboutmed {
+  width: 555px;
+  height: 700px;
+  flex-shrink: 0;
+  margin-left: 10%;
+  color: #f0f0f0;
+  line-height: normal;
+}
+.vertical-line {
+  width: 1px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+  left: 8%;
+}
+.vertmain {
+  position: relative;
+  left: 6%;
+}
+.num {
+  color: white;
+  font-family: Kanit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.getstarted {
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+  border-radius: 50px;
+  width: 200px;
+  border: none;
+  height: 50px;
+  border-radius: 4px;
+  background: var(
+    --Button-gradient,
+    linear-gradient(100deg, #1e78f0 1.81%, #9716ca 100%)
+  );
+  position: relative;
+  right: 30%;
+  margin-top: 32%;
+}
+.recbox {
+  background: #0d366c;
+  background-color: #0d366c;
+  height: 300px;
+  width: 2000px;
+  backdrop-filter: blur(200px);
+  color: #f0f0f0;
+  font-family: Space Mono, system-ui, -apple-system, "Segoe UI", "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-style: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.min {
+  border-radius: 500px;
+  background: rgba(137, 25, 192, 0.57);
+  filter: blur(90px);
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  flex-shrink: 0;
+}
+.circlebutton {
+  border-radius: 70px;
+  width: 80px;
+  height: 80px;
+  background-color: gray;
+  border-width: 0;
+}
+.vidicon {
+  width: 40px;
+  height: 40px;
+}
+.lpmain {
+  position: relative;
+}
+.lappac {
+  margin: 0;
+  background-image: url("../image/main.png");
+  width: 736px;
+  height: 414px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+}
+.macbook {
+  width: 554px;
+  height: 356px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 12%;
+  margin-top: 2%;
+}
+
+.iPhonepac {
+  margin: 0;
+  background-image: url("../image/main-1.png");
+  width: 165px;
+  height: 329px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  margin-bottom: 2%;
+}
+.mainiphone {
+  width: 135px;
+  height: 292px;
+  flex-shrink: 0;
+  position: relative;
+  left: 8%;
+  margin-top: 11%;
+}
+.Subscribe {
+  display: flex;
+  color: white;
+  font-weight: 500;
+  font-family: Space Mono, arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 20%;
+  position: relative;
+  left: 40%;
+}
+.form-btn {
+  color: white;
+  border-radius: 4px;
+  background: var(
+    --Button-gradient,
+    linear-gradient(100deg, #1e78f0 1.81%, #9716ca 100%)
+  );
+  /* Numbra shadow */
+  box-shadow: 0px 16px 24px 2px rgba(0, 0, 0, 0.14);
+  font-size: 18px;
+  text-align: center;
+  height: 50px;
+  width: 180px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 38%;
+}
+input[type="text"] {
+  width: 20%;
+  height: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+  position: relative;
+  left: 38%;
+}
+.lastdiv {
+  display: flex;
+  background: #0d366c;
+  background-color: #0d366c;
+  height: 350px;
+  width: 2000px;
+  backdrop-filter: blur(200px);
+  position: relative;
+  align-items: center;
+  padding-left: 25%;
+}
+.logo {
+  height: 80px;
+  width: 220px;
+}
+ul {
+  color: #f0f0f0;
+  text-decoration: none;
+  text-decoration-style: none;
+}
+a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+.footer {
+  padding: 40px 0;
+  background-color: #fdf8f7;
+  text-align: center;
+}
+
+.footer > p {
+  color: #15295f;
+}
+
+.code {
+  text-decoration: none;
+  color: #fd6e0a;
+}
+.subandbut {
+  background-image: url("../image/pngw.png");
+}
